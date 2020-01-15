@@ -41,21 +41,21 @@ class TenderCreator6 extends PolymerElement {
   <vaadin-grid-column header="Tender Name"></vaadin-grid-column>
   <vaadin-grid-column header="Created On"></vaadin-grid-column>
   <vaadin-grid-column header="Description"></vaadin-grid-column>
-  <vaadin-grid-column header="Open for Editing"></vaadin-grid-column>
+  <vaadin-grid-column header="Open for Repulishing"></vaadin-grid-column>
  </vaadin-grid>
  <vaadin-grid height-by-rows>
   <vaadin-grid-column header="8126412"></vaadin-grid-column>
   <vaadin-grid-column header="2019_NIC_16725_pack1"></vaadin-grid-column>
   <vaadin-grid-column header="18/01/2019"></vaadin-grid-column>
   <vaadin-grid-column header="Proving Services of inspection vehicle for the Assistant Engineer"></vaadin-grid-column>
-  <vaadin-grid-column header="Edit"></vaadin-grid-column>
+  <vaadin-grid-column header="Repulish"></vaadin-grid-column>
  </vaadin-grid>
  <vaadin-grid height-by-rows>
   <vaadin-grid-column header="4263902"></vaadin-grid-column>
   <vaadin-grid-column header="2019_NIC_16725_pack2"></vaadin-grid-column>
   <vaadin-grid-column header="10/01/2019"></vaadin-grid-column>
   <vaadin-grid-column header="Construction of Science and Technology building G5  "></vaadin-grid-column>
-  <vaadin-grid-column header="Edit"></vaadin-grid-column>
+  <vaadin-grid-column header="Repulish"></vaadin-grid-column>
  </vaadin-grid>
 </vaadin-app-layout>
 `;

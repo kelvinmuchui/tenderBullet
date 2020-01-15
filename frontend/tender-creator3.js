@@ -5,12 +5,12 @@ import '@vaadin/vaadin-tabs/src/vaadin-tabs.js';
 import '@vaadin/vaadin-tabs/src/vaadin-tab.js';
 import '@polymer/iron-icon/iron-icon.js';
 import '@vaadin/vaadin-ordered-layout/src/vaadin-vertical-layout.js';
-import '@vaadin/vaadin-text-field/src/vaadin-text-field.js';
 import '@vaadin/vaadin-combo-box/src/vaadin-combo-box.js';
 import '@vaadin/vaadin-ordered-layout/src/vaadin-horizontal-layout.js';
 import '@vaadin/vaadin-button/src/vaadin-button.js';
 import '@vaadin/vaadin-grid/src/vaadin-grid-column.js';
 import '@vaadin/vaadin-grid/src/vaadin-grid.js';
+import '@vaadin/vaadin-text-field/src/vaadin-text-area.js';
 
 class TenderCreator3 extends PolymerElement {
 
@@ -26,16 +26,16 @@ class TenderCreator3 extends PolymerElement {
  <vaadin-drawer-toggle slot="navbar"></vaadin-drawer-toggle>
  <vaadin-tabs style="margin : 0 auto; flex : 1;" orientation="vertical" theme="minimal" slot="drawer">
   <vaadin-tab>
-   <iron-icon></iron-icon>Create New Tender
+   <iron-icon></iron-icon>Create New Tender 
   </vaadin-tab>
   <vaadin-tab>
-   <iron-icon></iron-icon>Templates
+   <iron-icon></iron-icon>Templates 
   </vaadin-tab>
   <vaadin-tab>
-   <iron-icon></iron-icon>Draft Tender
+   <iron-icon></iron-icon>Draft Tender 
   </vaadin-tab>
   <vaadin-tab>
-   <iron-icon></iron-icon>Repulish Tender
+   <iron-icon></iron-icon>Repulish Tender 
   </vaadin-tab>
  </vaadin-tabs>
  <vaadin-grid height-by-rows>
@@ -68,7 +68,7 @@ class TenderCreator3 extends PolymerElement {
    <h3>Specific Document for cover:2019_NIC_16725_pack1</h3>
    <vaadin-horizontal-layout style="justify-content: space-between; align-self: stretch;width:50%">
     <label>Document Description</label>
-    <vaadin-text-field></vaadin-text-field>
+    <vaadin-text-area label="Write a description" placeholder="Add detailed explanation"></vaadin-text-area>
    </vaadin-horizontal-layout>
    <vaadin-horizontal-layout style="justify-content: space-between; align-self: stretch;width:50%">
     <label>Document Type</label>
@@ -76,10 +76,10 @@ class TenderCreator3 extends PolymerElement {
    </vaadin-horizontal-layout>
    <vaadin-horizontal-layout style="justify-content: space-around; width:30%; align-self: stretch;">
     <vaadin-button theme="primary">
-     Cancel
+      Cancel 
     </vaadin-button>
     <vaadin-button theme="primary" style="align-self: flex-end;">
-     Save
+      Save 
     </vaadin-button>
    </vaadin-horizontal-layout>
   </vaadin-vertical-layout>
