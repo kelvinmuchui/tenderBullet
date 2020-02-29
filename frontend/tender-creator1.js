@@ -7,11 +7,12 @@ import '@polymer/iron-icon/iron-icon.js';
 import '@vaadin/vaadin-text-field/src/vaadin-text-field.js';
 import '@vaadin/vaadin-combo-box/src/vaadin-combo-box-item.js';
 import '@vaadin/vaadin-combo-box/src/vaadin-combo-box.js';
-import '@vaadin/vaadin-ordered-layout/src/vaadin-horizontal-layout.js';
 import '@vaadin/vaadin-checkbox/src/vaadin-checkbox.js';
 import '@vaadin/vaadin-ordered-layout/src/vaadin-vertical-layout.js';
 import '@vaadin/vaadin-radio-button/src/vaadin-radio-group.js';
 import '@vaadin/vaadin-radio-button/src/vaadin-radio-button.js';
+import '@vaadin/vaadin-ordered-layout/src/vaadin-horizontal-layout.js';
+import '@vaadin/vaadin-button/src/vaadin-button.js';
 
 class TenderCreator1 extends PolymerElement {
 
@@ -155,6 +156,11 @@ class TenderCreator1 extends PolymerElement {
    <vaadin-horizontal-layout>
     <vaadin-checkbox checked></vaadin-checkbox>
     <label>BG-Bank Guarantee</label>
+   </vaadin-horizontal-layout>
+   <vaadin-horizontal-layout style="align-self: stretch; justify-content: flex-end;">
+    <vaadin-button theme="primary" id="vaadinButton">
+     Next 
+    </vaadin-button>
    </vaadin-horizontal-layout>
   </vaadin-vertical-layout>
  </div>

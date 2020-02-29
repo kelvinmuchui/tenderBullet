@@ -10,30 +10,30 @@ import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
 
 /**
- * A Designer generated component for the tender-creator1 template.
+ * A Designer generated component for the login-screen template.
  *
  * Designer will add and remove fields with @Id mappings but
  * does not overwrite or otherwise change this file.
  */
-@Route("tenderCreator1")
-@Tag("tender-creator1")
-@JsModule("./tender-creator1.js")
-public class TenderCreator1 extends PolymerTemplate<TenderCreator1.TenderCreator1Model> {
+@Route("/")
+@Tag("login-screen")
+@JsModule("./login-screen.js")
+public class LoginScreen extends PolymerTemplate<LoginScreen.LoginScreenModel> {
 
     @Id("vaadinButton")
     private Button vaadinButton;
 
     /**
-     * Creates a new TenderCreator1.
+     * Creates a new LoginScreen.
      */
-    public TenderCreator1() {
-        vaadinButton.addClickListener(e -> UI.getCurrent().navigate(TenderCreator2.class));
+    public LoginScreen() {
+        vaadinButton.addClickListener(e -> UI.getCurrent().navigate(TenderCreator1.class));
     }
 
     /**
-     * This model binds properties between TenderCreator1 and tender-creator1
+     * This model binds properties between LoginScreen and login-screen
      */
-    public interface TenderCreator1Model extends TemplateModel {
+    public interface LoginScreenModel extends TemplateModel {
         // Add setters and getters for template properties here.
     }
 }

@@ -23,16 +23,16 @@ class TenderCreator2 extends PolymerElement {
  <vaadin-drawer-toggle slot="navbar"></vaadin-drawer-toggle>
  <vaadin-tabs style="margin : 0 auto; flex : 1;" orientation="vertical" theme="minimal" slot="drawer">
   <vaadin-tab>
-   <iron-icon></iron-icon>Create Tender
+   <iron-icon></iron-icon>Create Tender 
   </vaadin-tab>
   <vaadin-tab>
-   <iron-icon></iron-icon>Templates
+   <iron-icon></iron-icon>Templates 
   </vaadin-tab>
   <vaadin-tab>
-   <iron-icon></iron-icon>Draft Tender
+   <iron-icon></iron-icon>Draft Tender 
   </vaadin-tab>
   <vaadin-tab>
-   <iron-icon></iron-icon>Republish Tender
+   <iron-icon></iron-icon>Republish Tender 
   </vaadin-tab>
  </vaadin-tabs>
  <vaadin-text-field placeholder="Search">
@@ -56,8 +56,8 @@ class TenderCreator2 extends PolymerElement {
   <vaadin-grid-column header="0"></vaadin-grid-column>
   <vaadin-grid-column></vaadin-grid-column>
  </vaadin-grid>
- <vaadin-button theme="primary">
-  Next
+ <vaadin-button theme="primary" id="vaadinButton">
+   Next 
  </vaadin-button>
 </vaadin-app-layout>
 `;
